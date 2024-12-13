@@ -1,0 +1,31 @@
+#hoten {
+    color: #FA4032;
+    background-color: #FFB38E;
+
+    border: 2px solid red;
+    border-radius: 20px;
+
+    margin: 25px 185px 75px 10px; /*top left bottom right*/
+
+    padding-bottom: 50px;
+    padding-left: 20px;
+
+    text-align: center;
+}
+
+.tuoi {
+    color: blue;
+    opacity: 0.5;
+}
+
+p {
+    color: green;
+}
+
+body {
+    background-image:url("/image/capy.jpg");
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: scroll;
+}

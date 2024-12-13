@@ -1,0 +1,101 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+    background-image: url("/image/lmht.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #0a0a0a;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+
+#form-container {
+    align-items: center;
+    text-align: center;
+    background-color: #1a1a2e;
+    padding: 30px;
+    border-radius: 10px;
+    width: 280px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+h1{
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+input[type="text"],input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: none;
+    background-color: #eaeaea;
+    color: #333;
+}
+
+#social-buttons{
+    display:flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+#social-buttons button{
+    border: none;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+#social-buttons button:nth-child(1) {
+    background-color: #3b5998;
+    color: #fff
+}
+
+
+#social-buttons button:nth-child(2) {
+    background-color: #db4437;
+    color: #fff
+}
+
+#social-buttons button:nth-child(3) {
+    background-color: #000000;
+    color: #fff
+}
+
+#social-buttons button:nth-child(4) {
+    background-color: #107c10;
+    color: #fff
+}
+
+label {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+p a {
+    color: #0078d7;
+    text-decoration: none;
+}
+
+#signin-button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1); /* Nền trong suốt */
+    border: none; /* Xóa viền */
+    margin-top: 20px;
+}
+
+#signin-button span {
+    color: #8888ff;
+    /* Màu của mũi tên */
+    font-size: 24px;
+    /* Kích thước mũi tên */
+}
+
